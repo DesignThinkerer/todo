@@ -1,6 +1,5 @@
-import Task from "./Task.js"
 import TaskManager from "./TaskManager.js"
-import TaskApp from "./TaskApp.js"
+import TaskApp from "./TaskApp"
 
 document.addEventListener("DOMContentLoaded", () => {
     const taskManager = new TaskManager();
